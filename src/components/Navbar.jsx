@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from "/src/assets/forestlogo1.png";
-import PageLink from "./PageLink";
-import SocialLink from "./SocialLink";
+import PageLinks from "./PageLinks";
+import SocialLinks from "./SocialLinks";
 
 const Navbar = () => {
     const [isToggle, setToggle] = useState(false);
@@ -15,10 +15,10 @@ const Navbar = () => {
             <img src={logo} alt="" className="logo"/>
 {/* <!-- desktop menu --> */}
             <div className="main-menu">
-            <PageLink groupName='menu-list' itemName='menu-item' />
+            <PageLinks groupName='menu-list' itemName='menu-item' />
             </div>
             <div className="icon-menu">
-            <SocialLink />   
+            <SocialLinks />   
             </div>
 {/* <!-- mobile menu --> */}
             <div className="mobile-menu">
@@ -26,7 +26,7 @@ const Navbar = () => {
                     <i className="fa-solid fa-bars fa-2x"></i>
                 </div>
                 <div className={isToggle ? "mobile-menu-items active" : "mobile-menu-items"}>
-                <PageLink groupName='mobile-menu-list' itemName='mobile-menu-item' />
+                <PageLinks groupName='mobile-menu-list' itemName='mobile-menu-item' />
                 </div>
             </div>
         </div>
