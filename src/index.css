@@ -131,6 +131,7 @@ span {
     align-items: center;
     a{color: var(--primary-4);
     font-size: 1.2rem;
+    text-transform: capitalize;
     }
 }
 
@@ -163,6 +164,7 @@ span {
         padding-bottom: 1.5rem;
         a{
             color:var(--primary-white);
+            text-transform: capitalize;
         }
     }
     li:last-child {
@@ -194,6 +196,7 @@ span {
         display: block;
         a {
             color: var(--primary-white);
+            text-transform: capitalize;
         }
     }
 }

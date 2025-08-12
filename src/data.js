@@ -41,4 +41,23 @@ export const tours = [
     duration: 3,
     cost: 2100,
     },
+];
+
+export const pageLinks = [
+    {id: 1, href: "index.html", text: "home" },
+    {id: 2, href: "#about", text: "about" },
+    {id: 3, href: "#services", text: "services" },
+    {id: 4, href: "#tours", text: "tours" },
+];
+
+export const socialLinks = [
+    {id: 1, href: "http://facebook.com", icon: "fa-brands fa-facebook"},
+    {id: 2, href: "http://x.com", icon: "fa-brands fa-x-twitter"},
+    {id: 3, href: "http://threads.com", icon: "fa-brands fa-threads"},
+];
+
+export const services = [
+    {id: 1, icon: "fa-solid fa-wallet", title: "saving money", info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, reiciendis?",},
+    {id: 2, icon: "fa-solid fa-tree", title: "endless hiking", info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, facilis.",},
+    {id: 3, icon: "fa-solid fa-socks", title: "Amazing Comfort", info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, deserunt!",},
 ]
